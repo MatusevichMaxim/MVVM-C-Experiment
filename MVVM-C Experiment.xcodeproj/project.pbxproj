@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56049F7E2C45A824008728A5 /* MVVM_C_ExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049F7D2C45A824008728A5 /* MVVM_C_ExperimentApp.swift */; };
-		56049F802C45A824008728A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049F7F2C45A824008728A5 /* ContentView.swift */; };
 		56049F822C45A825008728A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56049F812C45A825008728A5 /* Assets.xcassets */; };
 		56049F852C45A825008728A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56049F842C45A825008728A5 /* Preview Assets.xcassets */; };
+		56049F972C45A8E8008728A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049F962C45A8E8008728A5 /* AppDelegate.swift */; };
+		56049F992C45A8F3008728A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049F982C45A8F3008728A5 /* SceneDelegate.swift */; };
+		56049F9C2C45A933008728A5 /* Coordination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049F9B2C45A933008728A5 /* Coordination.swift */; };
+		56049F9E2C45A940008728A5 /* MainCoordination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049F9D2C45A940008728A5 /* MainCoordination.swift */; };
+		56049FA12C45A959008728A5 /* DialogCoordination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FA02C45A959008728A5 /* DialogCoordination.swift */; };
+		56049FA32C45A971008728A5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FA22C45A971008728A5 /* AppCoordinator.swift */; };
+		56049FA52C45A997008728A5 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FA42C45A997008728A5 /* OnboardingCoordinator.swift */; };
+		56049FA72C45A9B8008728A5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FA62C45A9B8008728A5 /* MainCoordinator.swift */; };
+		56049FAB2C45AA09008728A5 /* ValueSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FAA2C45AA09008728A5 /* ValueSubject.swift */; };
+		56049FB02C45AA48008728A5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FAF2C45AA48008728A5 /* MainTabView.swift */; };
+		56049FB42C45AA70008728A5 /* MainTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FB32C45AA70008728A5 /* MainTabViewModel.swift */; };
+		56049FB62C45AAAC008728A5 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FB52C45AAAC008728A5 /* TabItem.swift */; };
+		56049FB92C45ABF8008728A5 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FB82C45ABF8008728A5 /* HomeTabView.swift */; };
+		56049FBB2C45AC0C008728A5 /* HomeTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FBA2C45AC0C008728A5 /* HomeTabViewModel.swift */; };
+		56049FBE2C45ACBE008728A5 /* CalendarTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FBD2C45ACBE008728A5 /* CalendarTabView.swift */; };
+		56049FC02C45ACDD008728A5 /* CalendarTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FBF2C45ACDD008728A5 /* CalendarTabViewModel.swift */; };
+		56049FC22C45ACE8008728A5 /* SettingsTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FC12C45ACE8008728A5 /* SettingsTabViewModel.swift */; };
+		56049FC52C45AD34008728A5 /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049FC42C45AD34008728A5 /* SettingsTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		56049F7A2C45A824008728A5 /* MVVM-C Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-C Experiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		56049F7D2C45A824008728A5 /* MVVM_C_ExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_C_ExperimentApp.swift; sourceTree = "<group>"; };
-		56049F7F2C45A824008728A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56049F812C45A825008728A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56049F842C45A825008728A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56049F962C45A8E8008728A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56049F982C45A8F3008728A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56049F9B2C45A933008728A5 /* Coordination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordination.swift; sourceTree = "<group>"; };
+		56049F9D2C45A940008728A5 /* MainCoordination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordination.swift; sourceTree = "<group>"; };
+		56049FA02C45A959008728A5 /* DialogCoordination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogCoordination.swift; sourceTree = "<group>"; };
+		56049FA22C45A971008728A5 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		56049FA42C45A997008728A5 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		56049FA62C45A9B8008728A5 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		56049FAA2C45AA09008728A5 /* ValueSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueSubject.swift; sourceTree = "<group>"; };
+		56049FAF2C45AA48008728A5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		56049FB32C45AA70008728A5 /* MainTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewModel.swift; sourceTree = "<group>"; };
+		56049FB52C45AAAC008728A5 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		56049FB82C45ABF8008728A5 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		56049FBA2C45AC0C008728A5 /* HomeTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewModel.swift; sourceTree = "<group>"; };
+		56049FBD2C45ACBE008728A5 /* CalendarTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTabView.swift; sourceTree = "<group>"; };
+		56049FBF2C45ACDD008728A5 /* CalendarTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTabViewModel.swift; sourceTree = "<group>"; };
+		56049FC12C45ACE8008728A5 /* SettingsTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabViewModel.swift; sourceTree = "<group>"; };
+		56049FC42C45AD34008728A5 /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
+		56049FC62C45AE8E008728A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "MVVM-C Experiment/Resources/Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +84,12 @@
 		56049F7C2C45A824008728A5 /* MVVM-C Experiment */ = {
 			isa = PBXGroup;
 			children = (
-				56049F7D2C45A824008728A5 /* MVVM_C_ExperimentApp.swift */,
-				56049F7F2C45A824008728A5 /* ContentView.swift */,
-				56049F812C45A825008728A5 /* Assets.xcassets */,
-				56049F832C45A825008728A5 /* Preview Content */,
+				56049F8B2C45A846008728A5 /* App */,
+				56049F8C2C45A84F008728A5 /* Resources */,
+				56049F8F2C45A87B008728A5 /* Models */,
+				56049F922C45A89D008728A5 /* Views */,
+				56049F952C45A8B6008728A5 /* ViewModels */,
+				56049FA82C45A9F1008728A5 /* Utilities */,
 			);
 			path = "MVVM-C Experiment";
 			sourceTree = "<group>";
@@ -65,6 +100,173 @@
 				56049F842C45A825008728A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56049F8B2C45A846008728A5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				56049F8D2C45A867008728A5 /* Coordination */,
+				56049F962C45A8E8008728A5 /* AppDelegate.swift */,
+				56049F982C45A8F3008728A5 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		56049F8C2C45A84F008728A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56049F812C45A825008728A5 /* Assets.xcassets */,
+				56049FC62C45AE8E008728A5 /* Info.plist */,
+				56049F832C45A825008728A5 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		56049F8D2C45A867008728A5 /* Coordination */ = {
+			isa = PBXGroup;
+			children = (
+				56049F9A2C45A925008728A5 /* API */,
+				56049FA22C45A971008728A5 /* AppCoordinator.swift */,
+				56049FA42C45A997008728A5 /* OnboardingCoordinator.swift */,
+				56049FA62C45A9B8008728A5 /* MainCoordinator.swift */,
+			);
+			path = Coordination;
+			sourceTree = "<group>";
+		};
+		56049F8F2C45A87B008728A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56049F902C45A889008728A5 /* CoreData */,
+				56049F912C45A88E008728A5 /* DataModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56049F902C45A889008728A5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		56049F912C45A88E008728A5 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		56049F922C45A89D008728A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56049F932C45A8A5008728A5 /* Screens */,
+				56049F942C45A8AB008728A5 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		56049F932C45A8A5008728A5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				56049FAC2C45AA31008728A5 /* MainTab */,
+				56049FB72C45ABEE008728A5 /* HomeTab */,
+				56049FBC2C45ACA6008728A5 /* CalendarTab */,
+				56049FC32C45AD1D008728A5 /* SettingsTab */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		56049F942C45A8AB008728A5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				56049FB52C45AAAC008728A5 /* TabItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		56049F952C45A8B6008728A5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				56049FB22C45AA5F008728A5 /* OnboardingFlow */,
+				56049FB12C45AA57008728A5 /* MainFlow */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		56049F9A2C45A925008728A5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				56049F9B2C45A933008728A5 /* Coordination.swift */,
+				56049F9D2C45A940008728A5 /* MainCoordination.swift */,
+				56049FA02C45A959008728A5 /* DialogCoordination.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		56049FA82C45A9F1008728A5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				56049FA92C45A9FC008728A5 /* Helpers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		56049FA92C45A9FC008728A5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				56049FAA2C45AA09008728A5 /* ValueSubject.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		56049FAC2C45AA31008728A5 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				56049FAF2C45AA48008728A5 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		56049FB12C45AA57008728A5 /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				56049FB32C45AA70008728A5 /* MainTabViewModel.swift */,
+				56049FBA2C45AC0C008728A5 /* HomeTabViewModel.swift */,
+				56049FBF2C45ACDD008728A5 /* CalendarTabViewModel.swift */,
+				56049FC12C45ACE8008728A5 /* SettingsTabViewModel.swift */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
+		56049FB22C45AA5F008728A5 /* OnboardingFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnboardingFlow;
+			sourceTree = "<group>";
+		};
+		56049FB72C45ABEE008728A5 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				56049FB82C45ABF8008728A5 /* HomeTabView.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		56049FBC2C45ACA6008728A5 /* CalendarTab */ = {
+			isa = PBXGroup;
+			children = (
+				56049FBD2C45ACBE008728A5 /* CalendarTabView.swift */,
+			);
+			path = CalendarTab;
+			sourceTree = "<group>";
+		};
+		56049FC32C45AD1D008728A5 /* SettingsTab */ = {
+			isa = PBXGroup;
+			children = (
+				56049FC42C45AD34008728A5 /* SettingsTabView.swift */,
+			);
+			path = SettingsTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +339,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56049F802C45A824008728A5 /* ContentView.swift in Sources */,
-				56049F7E2C45A824008728A5 /* MVVM_C_ExperimentApp.swift in Sources */,
+				56049F972C45A8E8008728A5 /* AppDelegate.swift in Sources */,
+				56049FAB2C45AA09008728A5 /* ValueSubject.swift in Sources */,
+				56049FC02C45ACDD008728A5 /* CalendarTabViewModel.swift in Sources */,
+				56049FB62C45AAAC008728A5 /* TabItem.swift in Sources */,
+				56049FB92C45ABF8008728A5 /* HomeTabView.swift in Sources */,
+				56049F9C2C45A933008728A5 /* Coordination.swift in Sources */,
+				56049FA72C45A9B8008728A5 /* MainCoordinator.swift in Sources */,
+				56049FBE2C45ACBE008728A5 /* CalendarTabView.swift in Sources */,
+				56049FB42C45AA70008728A5 /* MainTabViewModel.swift in Sources */,
+				56049FB02C45AA48008728A5 /* MainTabView.swift in Sources */,
+				56049FA12C45A959008728A5 /* DialogCoordination.swift in Sources */,
+				56049FA52C45A997008728A5 /* OnboardingCoordinator.swift in Sources */,
+				56049FA32C45A971008728A5 /* AppCoordinator.swift in Sources */,
+				56049F9E2C45A940008728A5 /* MainCoordination.swift in Sources */,
+				56049FC22C45ACE8008728A5 /* SettingsTabViewModel.swift in Sources */,
+				56049F992C45A8F3008728A5 /* SceneDelegate.swift in Sources */,
+				56049FBB2C45AC0C008728A5 /* HomeTabViewModel.swift in Sources */,
+				56049FC52C45AD34008728A5 /* SettingsTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +489,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVVM-C Experiment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MVVM-C Experiment/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 9845B57J4C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVVM-C Experiment/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,10 +519,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVVM-C Experiment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MVVM-C Experiment/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 9845B57J4C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVVM-C Experiment/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
